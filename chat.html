@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section id="feedback">
+    <h2>Feedback and Suggestions</h2>
+    <div id="feedback-list"></div>
+</section>
+
+  <form action="https://github.com/your-repo/issues/new" target="_blank">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="comment">Your Feedback:</label>
+    <textarea id="comment" name="comment" required></textarea>
+    
+    <button type="submit">Submit</button>
+</form>
+<script>
+  fetch('feedback.json')
+    .then(response => response.json())
+    .then(data => {
+        const feedbackList = document.getElementById('feedback-list');
+        data.forEach(item => {
+            const feedbackItem = document.createElement('div');
+            feedbackItem.classList.add('feedback-item');
+            feedbackItem.innerHTML = `
+                <p><strong>${item.name}:</strong> ${item.comment}</p>
+                <small>${item.date}</small>
+            `;
+            feedbackList.appendChild(feedbackItem);
+        });
+    })
+    .catch(error => console.error('Error loading feedback:', error));
+
+</script>
+</body>
+</html>

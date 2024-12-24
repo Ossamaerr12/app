@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Material</title>
+    <style>
+        /* General setup */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+/* Resources Section */
+.resources {
+    margin: 20px;
+}
+
+.resources h2 {
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+}
+
+.resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.resource {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resource h3 {
+    color: #4CAF50;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.resource a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1.1em;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    background-color: #f4f4f9;
+    border-radius: 5px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.resource a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .resource-list {
+        align-items: center;
+    }
+
+    button {
+        width: 90%;
+    }
+
+    .search-bar input[type="text"] {
+                width: 80%;
+            }
+}
+
+        /* Search bar styling */
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+            gap: 10px;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 60%;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-bar button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo" width="100">
+            <h1>math Resources</h1>
+        </div>
+    </header>
+    <section class="resources">
+        <h2>Download math Lessons</h2>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for lessons...">
+        </div>
+        <div class="resource-list">
+            <div class="resource">
+                <h3>math Theory Lessons</h3>
+                <a href="cours/math/calcul-integral-corrige-serie-d-exercices-1-2.pdf" download>calcul-integral serie d'exercice couriges1-2(PDF)</a>
+                <a href="cours/math/calcul-integral-cours-et-exercices-corriges-2.pdf" download>calcul-integral serie d'exercice couriges2(PDF)</a>
+
+
+                <a href="cours/math/calcul-integral-serie-d-exercices-1-2.pdf" download>calcul-integral serie d'exercice1-2 (PDF)</a>
+                <a href="cours/math/derivation-et-etude-des-fonctions-corrige-serie-d-exercices-1-2.pdf" download>derivation et etude des fonctions corrige serie d'exercices-1-2  (PDF)</a>
+
+
+                <a href="cours/math/derivation-et-etude-des-fonctions-cours-et-exercices-corriges-2.pdf" download>derivation et etude des fonctions cours et exercices corriges-2 (PDF)</a>
+                <a href="cours/math/derivation-et-etude-des-fonctions-serie-d-exercices-1-2.pdf" download>derivation et etude des fonctions  serie d'exercices-1-2 (PDF)</a>
+
+
+                <a href="cours/math/equations-differentielles-exercices-corriges-1.pdf" download>equations-differentielles-exercices-corriges1 (PDF)</a>
+
+                <a href="cours/math/fonctions-exponentielles-corrige-serie-d-exercices-1-2.pdf" download>fonctions-exponentielles-corrige-serie-d-exercices-1-2 (PDF)</a>
+                <a href="cours/math/fonctions-exponentielles-cours-et-exercices-corriges-2.pdf" download>fonctions-exponentielles-cours-et-exercices-corriges-2 (PDF)</a>
+
+
+                <a href="cours/math/fonctions-exponentielles-serie-d-exercices-1-4.pdf" download>fonctions-exponentielles-serie-d-exercices-1-4 (PDF)</a>
+                <a href="cours/math/fonctions-logarithmiques-corrige-serie-d-exercices-1-2.pdf" download>fonctions-logarithmiques-corrige-serie-d-exercices-1-2 (PDF)</a>
+
+
+                <a href="cours/math/fonctions-logarithmiques-cours-et-exercices-corriges-7.pdf" download>fonctions-logarithmiques-cours-et-exercices-corriges (PDF)</a>
+                <a href="cours/math/fonctions-logarithmiques-serie-d-exercices-1-2.pdf" download>fonctions-logarithmiques-serie-d-exercices-1-2 (PDF)</a>
+
+
+                <a href="cours/math/limites-et-continuite-corrige-serie-d-exercices-1-4.pdf" download>limites-et-continuite-corrige-serie-d-exercices-1-4 (PDF)</a>
+                <a href="cours/math/limites-et-continuite-cours-et-exercices-corriges-4.pdf" download>limites-et-continuite-cours-et-exercices-corriges-4 (PDF)</a>
+
+                <a href="cours/math/limites-et-continuite-serie-d-exercices-1-4.pdf" download>limites-et-continuite-serie-d-exercices-1-4 (PDF)</a>
+                <a href="cours/math/nombres-complexes-1-corrige-serie-d-exercices-1-2.pdf" download>nombres-complexes-1-corrige-serie-d-exercices-1-2 (PDF)</a>
+
+                <a href="cours/math/nombres-complexes-1-cours-et-exercices-corriges-2.pdf" download>nombres-complexes-1-cours-et-exercices-corriges-2 (PDF)</a>
+                <a href="cours/math/nombres-complexes-1-serie-d-exercices-1-2.pdf" download>nombres-complexes-1-serie-d-exercices-1-2(PDF)</a>
+
+                <a href="cours/math/nombres-complexes-2-corrige-serie-d-exercices-1-2.pdf" download>nombres-complexes-2-corrige-serie-d-exercices-1-2 (PDF)</a>
+                <a href="cours/math/nombres-complexes-2-cours-et-exercices-corriges-2.pdf" download>nombres-complexes-2-cours-et-exercices-corriges-2 (PDF)</a>
+
+                <a href="cours/math/nombres-complexes-2-serie-d-exercices-1-2.pdf" download>nombres-complexes-2-serie-d-exercices-1-2 (PDF)</a>
+                <a href="cours/math/produit-scalaire-dans-l-espace-corrige-serie-d-exercices-1.pdf" download>produit-scalaire-dans-l-espace-corrige-serie-d-exercices-1 (PDF)</a>
+
+                <a href="cours/math/produit-scalaire-dans-l-espace-cours-et-exercices-corriges.pdf" download>produit-scalaire-dans-l-espace-cours-et-exercices-corriges. (PDF)</a>
+                <a href="cours/math/produit-scalaire-dans-l-espace-serie-d-exercices-1.pdf" download>produit-scalaire-dans-l-espace-serie-d-exercices-1 (PDF)</a>
+
+                <a href="cours/math/produit-vectoriel-corrige-serie-d-exercices-1.pdf" download>produit-vectoriel-corrige-serie-d-exercices-1 (PDF)</a>
+                <a href="cours/math/produit-vectoriel-cours-et-exercices-corriges.pdf" download>produit-vectoriel-cours-et-exercices-corriges (PDF)</a>
+
+                <a href="cours/math/produit-vectoriel-serie-d-exercices-1.pdf" download>produit-vectoriel-serie-d-exercices-1 (PDF)</a>
+                <a href="cours/math/suites-numeriques-corrige-serie-d-exercices-1-6.pdf" download>suites-numeriques-corrige-serie-d-exercices-1-6 (PDF)</a>
+
+                <a href="cours/math/suites-numeriques-cours-et-exercices-corriges-2.pdf" download>suites-numeriques-cours-et-exercices-corriges-2. (PDF)</a>
+                <a href="cours/math/suites-numeriques-serie-d-exercices-1-6.pdf" download>suites-numeriques-serie-d-exercices-1-6 (PDF)</a>
+            </div>
+
+  
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 All Rights Reserved</p>
+    </footer>
+<script>
+        document.getElementById('searchInput').addEventListener('input', function () {
+            const input = this.value.toLowerCase();
+            const resources = document.querySelectorAll('.resource a');
+            resources.forEach(link => {
+                const text = link.textContent.toLowerCase();
+                link.style.display = text.includes(input) ? "block" : "none";
+            });
+        });
+</script>
+</body>
+</html>

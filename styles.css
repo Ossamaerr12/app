@@ -1,0 +1,84 @@
+/* إعدادات الصفحة العامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+    color: #333;
+}
+
+/* تنسيق الهيدر */
+header {
+    background-color: #3f9642;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+.logo h1 {
+    margin: 10px 0 0;
+    font-size: 24px;
+}
+/* قسم المكتبة */
+.library {
+    padding: 20px;
+    text-align: center;
+}
+.library h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+/* تنسيق المواد */
+.subjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.subject {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.subject h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #063c92;
+}
+.subject ul {
+    list-style-type: none;
+    padding: 0;
+}
+.subject ul li a {
+    text-decoration: none;
+    color: #F97316;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+    font-weight: 700;
+}
+.subject ul li a:hover {
+    color: #4CAF50;
+}
+/* الفوتر */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.rout{
+    margin-top: 20px;
+}
+.rout a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 20px;
+}
